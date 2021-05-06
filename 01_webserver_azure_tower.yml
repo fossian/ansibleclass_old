@@ -2,8 +2,8 @@
 - hosts: tag_solution_webserver_floss
   become: yes
   vars:
-    websiteheader: "Ansible Playbook"
-    websiteauthor: "Flemming Ossian"
+    #websiteheader: "Ansible Playbook"
+    #websiteauthor: "Flemming Ossian"
   tasks:
   - name: Install Apache
     dnf:
